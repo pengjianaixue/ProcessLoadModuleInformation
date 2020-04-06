@@ -25,7 +25,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="lineEdit_searchProcess"/>
       </item>
       <item>
        <widget class="QPushButton" name="update_pushButton">
@@ -41,8 +41,8 @@
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
-      <widget class="QTableWidget" name="process_tableWidget"/>
-      <widget class="QWidget" name="">
+      <widget class="QTableView" name="process_tableView"/>
+      <widget class="QWidget" name="layoutWidget">
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -54,12 +54,12 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_2"/>
+           <widget class="QLineEdit" name="lineEdit_lineEdit_searchModule"/>
           </item>
          </layout>
         </item>
         <item>
-         <widget class="QTableWidget" name="moduleInformation_tableWidget"/>
+         <widget class="QTableView" name="moduleInformation_tableView"/>
         </item>
        </layout>
       </widget>
